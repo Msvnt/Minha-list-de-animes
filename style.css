@@ -1,0 +1,195 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background-aluraflix.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    font-size: 75px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+ body > img{
+  margin: 10px 10px;
+ }
+  
+  img {
+    max-height: 325px;
+    border-radius: 10px;
+    transition: 0.5s all;
+    cursor: pointer;
+    box-shadow: 5px 5px 25px #000000;
+    
+  }
+  
+  button:hover{
+    transform: scale(1.05);
+
+  }
+
+button{
+  margin: 10px 5px;
+  width: 225px;
+  height: 325px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px #000000;
+  transition: 0.3s all ;
+  background-size: cover;
+}
+
+.botaoAtivo{
+  opacity: 45%;
+  border: 2px;
+  border-style:solid;
+  border-color: rgb(0, 255, 0);
+  transition: 0.3s all;
+}
+
+.botao:active{
+  opacity:50%;
+  
+}
+
+.botaoAtivo:active{
+  opacity:50%;
+  transform: scale(1.0);
+}
+
+
+#anime_SpyFamily{
+  background-image:url(https://br.web.img2.acsta.net/pictures/22/04/18/22/43/1487268.jpg);
+}
+
+#anime_anime86{
+  background-image:url(https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/34e7b6cc02d946793f02efbc35a3c9f0.jpe);
+}
+
+#anime_nier{
+  background-image:url(https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/60ae0b1c6c34b3ef0279f07481a3b983.jpe);
+}
+
+#anime_YLIA{
+  background-image:url(https://m.media-amazon.com/images/M/MV5BYThlNWY5ZDgtYTIxNC00ZjdiLWJmNGUtMDFjMDlmZTAzOWFiXkEyXkFqcGdeQXVyNTM4NzAzNjc@._V1_.jpg);
+}
+
+#anime_madeAbyss{
+  background-image:url(https://m.media-amazon.com/images/M/MV5BYWY3MTliMWYtMmQ1Zi00NDE0LTkzYmUtZDI4MDM1MTgwZTc4XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg);
+}
+
+#anime_IWTEYP{
+  background-image:url(https://upload.wikimedia.org/wikipedia/en/2/2a/I_Want_to_Eat_Your_Pancreas_anime_film_poster.jpg);
+}
+
+#anime_rideYourWave{
+  background-image:url(https://m.media-amazon.com/images/I/81wbSKGJ98L._RI_.jpg);
+}
+
+#anime_plasticMemories{
+  background-image:url(https://www.ecured.cu/images/7/7c/PlasticMemories.jpg);
+}
+
+#anime_orange{
+  background-image:url(https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/a82d60d9f87131b2439208468101c4a6.jpe);
+}
+
+#anime_toYourEternity{
+  background-image:url(https://upload.wikimedia.org/wikipedia/pt/a/a4/Capa_Fumetsu_no_Anata_e.jpg);
+}
+
+#anime_tokyoGhoul{
+  background-image:url(https://m.media-amazon.com/images/I/71aIUtWoqHL.jpg);
+}
+
+#anime_myHeroAcademia{
+  background-image:url(https://animesbr.biz/wp-content/uploads/2019/07/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg);
+}
+
+#anime_hellsing{
+  background-image:url(https://m.media-amazon.com/images/M/MV5BZTkyNjA0YTItNTBmNC00ZjFiLTg0YWItOGQ4NGZkMmQ4NDI0XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg);
+}
+
+#anime_monster{
+  background-image:url(https://m.media-amazon.com/images/M/MV5BM2ZkYTAwMGMtOGEwOS00MzBjLTgxOGYtZTYwY2E1ZjMyZmY4XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg);
+}
+
+#anime_tokyoRevengers{
+  background-image:url(https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/70975a1227b453c1caf24fa05a93617d.jpe);
+}
+
+#anime_demonSlayer{
+  background-image:url(https://cinema10.com.br/upload/series/series_2568_demon_Easy-Resize.com.jpg);
+}
+
+#anime_darlingFranxx{
+  background-image:url(https://upload.wikimedia.org/wikipedia/pt/e/eb/Darling_in_the_Franxx_Poster.jpg);
+}
+
+#anime_fullmetal{
+  background-image:url(https://m.media-amazon.com/images/I/51r79YForqL._AC_.jpg);
+}
+
+#anime_deathnote{
+  background-image:url(https://www.anitube.site/wp-content/uploads/Death-Note-leg.jpg);
+}
+
+#anime_hXh{
+  background-image:url(https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/cbb55a6382682bf71e91f685c6473c5a.jpe);
+}
+
+#anime_aOt{
+  background-image:url(https://image.tmdb.org/t/p/w600_and_h900_bestv2/xSctyYHNUQJqniZ06VOzi1rPlPp.jpg);
+}
+
+#anime_evangelion{
+  background-image:url(https://br.web.img2.acsta.net/pictures/18/12/07/12/40/4530128.jpg);
+}
+
+#anime_bunnyGirlSenpai{
+  background-image:url(https://upload.wikimedia.org/wikipedia/pt/d/d2/Seishun_Buta_Yarou_Volume_1_%28Capa_Japonesa%29.png);
+}
+
+#anime_fireForce{
+  background-image:url(https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/da1db9f24b365129646e8b4508858217.jpe);
+}
+
+#anime_naruto{
+  background-image:url(https://br.web.img3.acsta.net/c_310_420/pictures/16/04/11/16/56/089875.jpg);
+}
+
+#anime_jujutsu{
+  background-image:url(https://upload.wikimedia.org/wikipedia/pt/4/4b/Jujutsu_Kaisen_Cover.png);
+}
+
+#anime_violetEvergarden{
+  background-image:url(https://image.tmdb.org/t/p/w600_and_h900_bestv2/ImvHbM4GsJJykarnOzhtpG6ax6.jpg);
+}
+
+#anime_dororo{
+  background-image:url(https://br.web.img2.acsta.net/pictures/19/06/26/11/13/1639915.jpg);
+}
